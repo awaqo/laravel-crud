@@ -38,8 +38,8 @@
                 <td>
                     <form action="{{route('post.destroy', $post->id)}}" method="post">
                         @csrf
-                        @method ('DELETE')
-                        <button class="btn btn-danger" type="submit">Delete</button>
+                        @method ('DELETE') <!-- Hapus data -->
+                        <button class="btn btn-danger" type="submit">Hapus</button>
                     </form>
                 </td>
             </tr>

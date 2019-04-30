@@ -1,9 +1,14 @@
 @extends('layout')
 @section('content')
-<div>
+<style>
+    .upper{
+        margin-top: 100px;
+    }
+</style>
+<div class="upper">
 <div class="container">
   <div class="row">
-      <legend>View Data</legend>
+      <h1>View Data</h1>
       <table class="table table-hover">
       <tr>
         <td>ID</td>
