@@ -1,6 +1,8 @@
 @extends('layout')
 
 @section('content')
+<!-- proses ubah data -->
+
 <style>
   .uper {
     margin-top: 40px;
